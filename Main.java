@@ -8,7 +8,6 @@ public class Main {
     public int RandomNumber(){
         // defining an object of the class random
         Random rand_num = new Random();
-        // using the object to generate random number in a range of 0 - 10;
         return rand_num.nextInt(10) + 1;  // the +1 shifts the range from 0-9 to 1 - 10
     }
 
@@ -96,9 +95,7 @@ public class Main {
                              System.out.println("Exiting .... Goodbye!");
                              validity = false;
                              user_input.close();
-                            break;
-                        // default:
-                        //     break;
+                            break;;
                     }
                     
                 } else {
