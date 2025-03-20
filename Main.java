@@ -49,9 +49,6 @@ public class Main {
                                     System.out.print("Enter your numeric guess [1-10]: ");
                                     user_number = user_input.nextInt();
                                     if (user_number > 0 && user_number <= 10  ) {
-                                        // System.out.println("Valid input bound");
-                                        // int sys_val = sys_guess.RandomNumber();
-
                                         if (user_number > sys_val) {
 
                                             System.out.println("Your number " + user_number + " is too high.");
@@ -85,9 +82,6 @@ public class Main {
                                     System.out.println("Error : Invalid input type! ");
                                     user_input.nextLine();
                                 }
-                                
-
-                                
                             }
                             break;
                         
