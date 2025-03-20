@@ -95,7 +95,7 @@ public class Main {
                              System.out.println("Exiting .... Goodbye!");
                              validity = false;
                              user_input.close();
-                            break;;
+                            break;
                     }
                     
                 } else {
